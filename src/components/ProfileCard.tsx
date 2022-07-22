@@ -7,6 +7,10 @@ const StyledDiv = styled.div`
   grid-row-start: 1;
   grid-row-end: 3;
   background-color: white;
+  border-radius: 15px;
+
+  @media (max-width: 376px) {
+  }
 `;
 
 function ProfileCard() {
