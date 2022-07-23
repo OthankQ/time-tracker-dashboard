@@ -20,12 +20,48 @@ function MainContainer() {
   return (
     <StyledContainer>
       <ProfileCard></ProfileCard>
-      <BasicCard></BasicCard>
-      <BasicCard></BasicCard>
-      <BasicCard></BasicCard>
-      <BasicCard></BasicCard>
-      <BasicCard></BasicCard>
-      <BasicCard></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
+      <BasicCard
+        bgColor="orange"
+        imgSrc="/public/images/icon-work.svg"
+        category="Work"
+        hours="32"
+        lastWeekHours="36"
+      ></BasicCard>
     </StyledContainer>
   );
 }

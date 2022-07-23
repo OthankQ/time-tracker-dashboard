@@ -9,7 +9,15 @@ const StyledDiv = styled.div`
   }
 `;
 
-function BasicCard() {
+export type basicCardProps = {
+  bgColor: string;
+  imgSrc: string;
+  category: string;
+  hours: string;
+  lastWeekHours: string;
+};
+
+function BasicCard(props: basicCardProps) {
   return <StyledDiv></StyledDiv>;
 }
 
