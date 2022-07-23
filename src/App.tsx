@@ -9,6 +9,7 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Rubik', sans-serif;
 
   @media (max-width: 376px) {
   }
