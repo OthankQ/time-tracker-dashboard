@@ -43,6 +43,10 @@ const StyledDiv = styled.div`
         letter-spacing: 1px;
         padding: 5px 0px;
       }
+
+      h1 {
+        font-size: 2.3rem;
+      }
     }
   }
 
@@ -52,6 +56,7 @@ const StyledDiv = styled.div`
     ol {
       padding: 10px 0;
       color: grey;
+      letter-spacing: 1px;
     }
 
     .active {
