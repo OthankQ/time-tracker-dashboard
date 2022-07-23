@@ -68,7 +68,7 @@ function ProfileCard() {
     <StyledDiv>
       <div className="inner-container">
         <div className="profile-container">
-          <img src="/images/image-jeremy.png" alt="profile picture" />
+          <img src="/images/image-jeremy.png" alt="profile" />
         </div>
         <div className="text-container">
           <p>Report for</p>
