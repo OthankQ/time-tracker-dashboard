@@ -30,37 +30,37 @@ function MainContainer() {
       <StyledBasicCard
         bgColor="hsl(195, 74%, 62%)"
         imgSrc="/public/images/icon-work.svg"
-        category="Work"
-        hours="32"
-        lastWeekHours="36"
+        category="Play"
+        hours="10"
+        lastWeekHours="8"
       ></StyledBasicCard>
       <StyledBasicCard
         bgColor="hsl(348, 100%, 68%)"
         imgSrc="/public/images/icon-work.svg"
-        category="Work"
-        hours="32"
-        lastWeekHours="36"
+        category="Study"
+        hours="4"
+        lastWeekHours="7"
       ></StyledBasicCard>
       <StyledBasicCard
         bgColor="hsl(145, 58%, 55%)"
         imgSrc="/public/images/icon-work.svg"
-        category="Work"
-        hours="32"
-        lastWeekHours="36"
+        category="Exercise"
+        hours="4"
+        lastWeekHours="5"
       ></StyledBasicCard>
       <StyledBasicCard
         bgColor="hsl(264, 64%, 52%)"
         imgSrc="/public/images/icon-work.svg"
-        category="Work"
-        hours="32"
-        lastWeekHours="36"
+        category="Social"
+        hours="5"
+        lastWeekHours="10"
       ></StyledBasicCard>
       <StyledBasicCard
         bgColor="hsl(43,84%,65%)"
         imgSrc="/public/images/icon-work.svg"
-        category="Work"
-        hours="32"
-        lastWeekHours="36"
+        category="Self Care"
+        hours="2"
+        lastWeekHours="2"
       ></StyledBasicCard>
     </StyledContainer>
   );

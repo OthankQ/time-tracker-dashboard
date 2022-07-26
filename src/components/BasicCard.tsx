@@ -22,10 +22,10 @@ const BasicCard: React.FunctionComponent<basicCardProps> = (props) => {
             </div>
           </div>
           <div className="hours-ctn">
-            <p>{props.hours}</p>
+            <p>{props.hours}hrs</p>
           </div>
           <div className="last-week-hrs-ctn">
-            <p>{props.lastWeekHours}</p>
+            <p>Last Week - {props.lastWeekHours}hrs</p>
           </div>
         </div>
       </div>
@@ -51,7 +51,9 @@ const StyledBasicCard = styled(BasicCard)`
       background-color: hsl(235, 46%, 20%);
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
-      padding: 20px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 30px;
 
       .category-ctn {
         display: flex;
@@ -63,6 +65,24 @@ const StyledBasicCard = styled(BasicCard)`
             color: white;
           }
         }
+
+        .menu-btn-ctn {
+          color: white;
+        }
+      }
+
+      .hours-ctn {
+        padding-top: 20px;
+        p {
+          font-size: 45px;
+          font-weight: 300;
+          color: white;
+        }
+      }
+
+      .last-week-hrs-ctn {
+        color: white;
+        padding-top: 15px;
       }
     }
   }
