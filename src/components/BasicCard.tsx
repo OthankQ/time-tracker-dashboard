@@ -13,6 +13,9 @@ const BasicCard: React.FunctionComponent<basicCardProps> = (props) => {
   return (
     <div className={props.className}>
       <div className="main-ctn">
+        <div className="bg-img-ctn">
+          <img src={props.imgSrc} alt="background icon" />
+        </div>
         <div className="content-ctn">
           <div className="category-ctn">
             <div className="category-text">
@@ -44,6 +47,14 @@ const StyledBasicCard = styled(BasicCard)`
     border-radius: 15px;
     flex-direction: column-reverse;
     height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .bg-img-ctn {
+      position: absolute;
+      top: -10px;
+      right: 10px;
+    }
 
     .content-ctn {
       display: flex;
@@ -55,6 +66,7 @@ const StyledBasicCard = styled(BasicCard)`
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
       padding: 30px;
+      z-index: 1;
 
       .category-ctn {
         display: flex;
