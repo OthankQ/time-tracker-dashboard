@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export interface basicCardProps {
   bgColor: string;
   imgSrc: string;
@@ -18,7 +19,7 @@ const BasicCard: React.FunctionComponent<basicCardProps> = (props) => {
               <p>{props.category}</p>
             </div>
             <div className="menu-btn-ctn">
-              <img src="/public/images/icon-ellipsis.svg" alt="menu" />
+              <img src="../images/icon-ellipsis.svg" alt="menu" />
             </div>
           </div>
           <div className="hours-ctn">
@@ -68,20 +69,27 @@ const StyledBasicCard = styled(BasicCard)`
 
         .menu-btn-ctn {
           color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          :hover {
+            cursor: pointer;
+          }
         }
       }
 
       .hours-ctn {
         padding-top: 20px;
         p {
-          font-size: 45px;
+          font-size: 56px;
           font-weight: 300;
           color: white;
         }
       }
 
       .last-week-hrs-ctn {
-        color: white;
+        color: #aaa9a9;
         padding-top: 15px;
       }
     }
